@@ -1,1 +1,58 @@
-formulario de exercicio do curso desenvolvimento web 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        color: red;
+    }
+
+    p {
+        color: rgb(0, 0, 0);
+    }
+
+    input[type="text"], input[type="date"], input[type="email"], input[type="radio"] {
+        color: rgb(0, 0, 0);
+    }
+
+    label {
+        color: rgb(0, 0, 0);
+    }
+</style>
+</head>
+<body>
+    <h1>Cadastro do Usuário</h1>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+        <p>
+            Nome completo:<input type="text" name="Nome" id="Nome">
+        </p>
+        <p>
+            Data de Nascimento: <input type="date" name="Nascimento" id="nascimento">
+        </p>
+        <p> Email: <input type="email" name="email" id="email">
+
+        </p>
+        <p>
+            Você gostaria de receber emails com propaganda de nossos parceiros?
+        </p>
+        <p>
+            Sim: <input type="radio" name="receber propaganda" value="Sim">
+        </p>
+        <p>
+            Não: <input type="radio" name="receber propaganda" value="Não">
+        </p>
+
+
+    </form>
+   
+
+   
+</body>
+</html>
